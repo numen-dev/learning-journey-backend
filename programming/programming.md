@@ -3,7 +3,7 @@
 
 | [Level 1](#level-1) <br> Nível 1 <br> Fundamentos e conceitos essenciais para iniciar a jornada | [Level 2](#level-2) <br> Nível 2 <br> Especialização e domínio intermediário das tecnologias | [Level 3](#level-3) <br> Nível 3 <br> Conceitos avançados, visão de arquitetura e inovações |
 |----|----|----|
-| [HTML/CSS](#htmlcss) | [Refatoração](#refatoração) | [AI assisted programming](#ai-assisted-programming) |
+| [HTML/CSS](#htmlcss) | [Refactoring](#refactoring) | [AI assisted programming](#ai-assisted-programming) |
 | [JavaScript](#javascript) | [TypeScript](#typescript) | [Container (Kyma, Docker, K8s)](#container-kyma-docker-k8s) |
 | [Node.js/npm](#nodejsnpm) | [Sync & Async](#sync--async) | [Continuous Integration and Delivery](#continuous-integration-and-delivery) |
 | [SQL](#sql) | [DBMS: SQLite, Postgres, HANA](#dbms) | |
@@ -92,6 +92,7 @@ Python é uma linguagem de programação legível, próxima do inglês, com uma 
 
 - [ ] *PT* Python.org [O tutorial do Python](https://docs.python.org/pt-br/3/tutorial/index.html)
 - [ ] *EN* W3Schools [Python Intro](https://www.w3schools.com/python/python_intro.asp)
+- [ ] *EN* Jupyter Notebook[Learning Python 3](https://gist.github.com/kenjyco/69eeb503125035f21a9d)
 
 ### **Java (OOP)**
 Java is the go-to language to learn Object Oriented Programming (OOP). This is a core concept for Software Engineering, and thats why it's crucial to learn it early. Even if you don't use OOP later, the separation of concerns that you learn with Objects, Classes, Instances, will be of great influence in the organization and modularization of your code.
@@ -117,29 +118,81 @@ Antes do cursor do mouse e das interfaces gráficas existirem, tudo precisava se
 ## Level 2
 **Advanced Programming**
 
-### **Refatoração**
-- [ ] [Refatoração Intro](https://www.devmedia.com.br/introducao-a-refatoracao/21377)
-- [ ] [Práticas de Engenharia de Software](https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/startupgovbr/guia-gps/pages/5-saiba-mais/praticas-de-engenharia-de-software/refatoracao)
+Advanced skills that will aid you solving non-trivial problems. They'll also prevent you from creating future problems, by allowing for a more robust code, resilient to changes and system unstabilities.
+
+Habilidades avançadas que vão te ajudar a resolver problemas não triviais. Elas também vão evitar que você crie problemas futuros, permitindo um código mais robusto, resiliente a mudanças e a instabilidades de sistema.
+
+### **Refactoring**
+Refactoring is the process of rewriting your own code, removing clutter, making it more concise, more self-explanatory, or even adding comments to explain it. Just as you wash your face, brush your teeth, and put on nice clothes before presenting yourself, you should do the same with your code.
+
+Refatoração é o processo de reescrever o seu próprio código, removendo excessos, tornando-o mais conciso, mais autoexplicativo, ou até mesmo adicionando comentários para explicá-lo. Assim como você lava o rosto, escova os dentes e coloca uma roupa bonita antes de se apresentar, você deve fazer o mesmo com o seu código.
+
+- [ ] *PT* Blog Devmedia [Refatoração Intro](https://www.devmedia.com.br/introducao-a-refatoracao/21377)
+- [ ] *PT* gov.br [Práticas de Engenharia de Software](https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/startupgovbr/guia-gps/pages/5-saiba-mais/praticas-de-engenharia-de-software/refatoracao)
+- [ ] *EN* Martin Fowler [Refactoring](https://refactoring.com/)
 
 ### **TypeScript**
-- [ ] [TypeScript](https://www.w3schools.com/typescript/index.php)
+TypeScript is a strongly typed programming language built on top of JavaScript. Whereas typing was an obstacle for JS programming, as you increase the size of your application the strong typing ensures its consistency, robustness and resiliency.
+
+TypeScript é uma linguagem de programação fortemente tipada construída sobre o JavaScript. Enquanto a tipagem era um obstáculo na programação em JS, à medida que sua aplicação cresce, a tipagem forte garante consistência, robustez e resiliência ao código.
+
+- [ ] *EN* W3Schools [TypeScript](https://www.w3schools.com/typescript/index.php)
+- [ ] *PT* typescriptlang.org [TypeScript para o Novo Programador](https://www.typescriptlang.org/pt/docs/handbook/typescript-from-scratch.html)
+- [ ] *PT* typescriptlang.org [TypeScript para programadores JavaScript](https://www.typescriptlang.org/pt/docs/handbook/typescript-in-5-minutes.html)
 
 ### **Sync & Async**
-- [ ] [JS Async](https://www.w3schools.com/js/js_async.asp)
-- [ ] [C# Async](https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/)
+When we consider system topology and performance, we inevitably encounter asynchronous situations—that is, we don't know when the next line of code will be ready to execute. It's a complex challenge to write code that can run at any time and still remain readable.
+
+Quando consideramos a topologia e o desempenho dos sistemas, inevitavelmente nos deparamos com situações assíncronas — ou seja, não sabemos quando a próxima linha de código estará pronta para ser executada. É um desafio complexo escrever um código que possa ser executado a qualquer momento e ainda assim seja legível.
+
+- [ ] *PT* MDN [JavaScript Assíncrono](https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Extensions/Async_JS)
+- [ ] *EN* W3Schools [JS Async](https://www.w3schools.com/js/js_async.asp)
+- [ ] *EN* learn.microsoft [C# Async](https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/)
 
 ### **DBMS**
-- [ ] [DBMS](https://www.geeksforgeeks.org/dbms/dbms/)
+How does a declarative statement, an SQL Query, transforms into a dataset? That's the DBMS's job. How does tables recover from a disaster, or an exception during a transaction? That's also DBMS's job. Learn about Database Management Systems to understand which one is suitable for each application.
+
+Como uma frase declarativa, uma consulta SQL, se transforma em um conjunto de dados? Esse é o trabalho do SGBD. Como as tabelas se recuperam de um desastre ou de uma exceção durante uma transação? Isso também é responsabilidade do SGBD. Aprenda sobre Sistemas de Gerenciamento de Banco de Dados para entender qual é o mais adequado para cada aplicação.
+
+- [ ] *EN* Geeks for Geeks [DBMS Tutorial](https://www.geeksforgeeks.org/dbms/dbms/)
+- [ ] *PT* Wikipedia [SGBD](https://pt.wikipedia.org/wiki/Sistema_de_gerenciamento_de_banco_de_dados)
+- [ ] *PT* Escola Superior de Redes [SGBD](https://esr.rnp.br/desenvolvimento-de-sistemas/sistemas-gerenciadores-de-banco-de-dados/)
 
 ### **TDD**
-- [ ] [TDD](https://www.devmedia.com.br/test-driven-development-tdd-simples-e-pratico/18533)
+Once you develop about 6–7 features, you'll quickly get tired of testing all of them manually. That's why we automate testing. However, developers often say there's no time to write tests. That's where TDD comes in: start with the test so that it's an inherent part of development and can't be skipped.
+As [Martin Fowler says](https://martinfowler.com/bliki/TestDrivenDevelopment.html):
+>Test-Driven Development (TDD) is a technique for building software that guides software development by writing tests. It was developed by Kent Beck in the late 1990's as part of Extreme Programming. In essence we follow three simple steps repeatedly:
+>1. Write a test for the next bit of functionality you want to add.
+>2. Write the functional code until the test passes.
+>3. Refactor both new and old code to make it well structured.
+
+Após desenvolver umas 6-7 funcionalidades, você rapidamente ficará cansado de testar todas elas manualmente. Por isso, automatizamos os testes. Os desenvolvedores dizem que não há tempo para escrever testes. É aí que o TDD surge: comece pelo teste, tornando-o parte inerente do desenvolvimento e impossível de ser ignorado.
+Como [Martin Fowler diz](https://martinfowler.com/bliki/TestDrivenDevelopment.html):
+> Test-Driven Development (TDD) é uma técnica para construir software que orienta o desenvolvimento escrevendo testes. Foi desenvolvida por Kent Beck no final dos anos 1990 como parte do Extreme Programming. Em essência, seguimos três passos simples repetidamente:
+> 1. Escreva um teste para a próxima funcionalidade que você deseja adicionar.
+> 2. Escreva o código funcional até que o teste passe.
+> 3. Refatore tanto o código novo quanto o antigo para que fiquem bem estruturados.
+
+
+- [ ] *EN* Kent Beck [Canon TDD](https://tidyfirst.substack.com/p/canon-tdd)
+- [ ] *PT* Blog DevMedia [TDD](https://www.devmedia.com.br/test-driven-development-tdd-simples-e-pratico/18533)
+- [ ] *PT* Tutorial [Aprenda TDD na prática](https://github.com/PauloGoncalvesBH/aprenda-tdd-na-pratica)
 
 ### **Git (Branches, PR)**
-- [ ] [Git](https://www.w3schools.com/git/default.asp)
+Continue your Git learning understanding local and remote repositories, branches, merges and pull-requests.
+
+Continue seu aprendizado em Git entendendo repositórios locais e remotos, branches, merges e pull-requests.
+
+- [ ] *EN* W3Schools [Git Branches](https://www.w3schools.com/git/git_branch.asp?remote=github)
+- [ ] *PT* git-scm.com [Branches no Git](https://git-scm.com/book/pt-br/v2/Branches-no-Git-Branches-em-poucas-palavras)
 
 ### **Regex**
-- [ ] [Regex Guide](https://medium.com/xp-inc/regex-um-guia-pratico-para-express%C3%B5es-regulares-1ac5fa4dd39f)
-- [ ] [RegexOne](https://regexone.com/)
+Regular Expressions are a way to define patterns against which text will be matched. Pattern matching is a extremely concise and efficient way to match, filter and find strings of text.
+
+Expressões Regulares são uma forma de definir padrões contra os quais textos serão comparados. A correspondência de padrões é uma maneira extremamente concisa e eficiente de buscar, filtrar e encontrar strings em textos.
+
+- [ ] *PT* Blog [Regex: Um guia prático para expressões regulares](https://medium.com/xp-inc/regex-um-guia-pratico-para-express%C3%B5es-regulares-1ac5fa4dd39f)
+- [ ] *EN* RegexOne [Regex Interactive Tutorial](https://regexone.com/)
 
 
 ## Level 3
