@@ -99,7 +99,10 @@ O que é o Core e por que queremos mantê-lo Clean? As empresas perceberam que a
 
 ## Level 2
 **S/4HANA and More BTP**
+
 You now know the basics of SAP and BTP. It's time to dive deeper and learn how SAP's technology has evolved over the years, because many customers are stuck in the past and need your help to get up to date with the latest technologies.
+
+**S/4HANA e Mais BTP**
 
 Você já conhece o básico de SAP e BTP. Agora é hora de se aprofundar e aprender como a tecnologia SAP evoluiu ao longo dos anos, pois muitos clientes ainda estão presos ao passado e precisam da sua ajuda para se atualizar com as tecnologias mais recentes.
 

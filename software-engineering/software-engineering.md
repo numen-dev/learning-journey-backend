@@ -67,8 +67,8 @@ No mundo SAP, o Open Data Protocol (OData) é o protocolo padrão para comunica�
 
 - [ ] *EN* Tutorial [What is REST?](https://restfulapi.net/)
 - [ ] *PT* Wikipedia [REST](https://pt.wikipedia.org/wiki/REST)
-- [ ] ***EN* odata.org [OData - Getting Started](https://www.odata.org/getting-started/)**
-- [ ] **Northwind OData example service[Northwind](https://services.odata.org/Northwind/Northwind.svc/)**
+- [ ] *EN* odata.org [OData - Getting Started](https://www.odata.org/getting-started/)
+- [ ] **Northwind OData example service [Northwind](https://services.odata.org/Northwind/Northwind.svc/)**
 - [ ] *PT* StackOverflow [O que é e para que serve OData](https://pt.stackoverflow.com/questions/284722/o-que-%C3%A9-e-para-que-serve-odata)
 
 ## Level 2
