@@ -2,11 +2,11 @@
 
 | [Level 1](#level-1) <br> Nível 1 <br> Fundamentos e conceitos essenciais para iniciar a jornada | [Level 2](#level-2) <br> Nível 2 <br> Especialização e domínio intermediário das tecnologias | [Level 3](#level-3) <br> Nível 3 <br> Conceitos avançados, visão de arquitetura e inovações |
 |----|----|----|
-| [SAP](#sap-erp) | [S/4HANA (and ECC)](#s4hana-and-ecc) | [SAP T-Codes](#sap-t-codes) |
+| [SAP](#sap-erp) | [S/4HANA (and ECC)](#s4hana-and-ecc) | [SAP T-Codes and Tables](#sap-t-codes-and-tables) |
 | [SAP BTP](#sap-btp) | [SAP Cloud ERP](#sap-cloud-erp) | [Integration Suite (CPI)](#integration-suite-cpi) |
-| [BTP Services](#btp-services) | [Job Scheduler](#job-scheduler) | [Official Documentation (help.sap.com)](#official-documentation-helpsapcom) |
-| [Cloud Foundry](#cloud-foundry)| [HANA](#hana) | [SAP for me](#sap-for-me) |
-| [Work Zone (Standard)](#work-zone-standard) | [Kyma](#kyma) | |
+| [BTP Services](#btp-services) | [Job Scheduler](#job-scheduler) | [SAP Help Portal](#sap-help-portal) |
+| [Cloud Foundry](#cloud-foundry)| [HANA](#hana) | [SAP for Me](#sap-for-me) |
+| [Work Zone (Standard)](#work-zone-standard) | [Kyma](#kyma) | [Business Accelerator Hub](#business-accelerator-hub) |
 | [Clean Core](#clean-core) | [HTML5 App Repository](#html5-app-repository) | |
 
 ## Level 1
@@ -163,11 +163,44 @@ Recursos estáticos, como páginas web (HTML), podem ser armazenados e gerenciad
 ## Level 3
 **Further SAP Services and Resources**
 
-### SAP T-Codes
+At this level, there is no more learning that can be applied to everyone at the same time. The path you follow, the projects you are involved in, and the customers you work with will dictate the topics you need to learn. Therefore, here are some useful resources you can look into when needed.
+
+**Outros Serviços e Recursos SAP**
+
+Neste nível, não há mais aprendizado que possa ser aplicado a todos ao mesmo tempo. O caminho que você segue, os projetos dos quais participa e os clientes com quem trabalha vão ditar os tópicos que você precisará aprender. Portanto, aqui estão alguns recursos úteis que você pode consultar quando necessário.
+
+### SAP T-Codes and Tables
+Even if you avoid ABAP programming, you'll find yourself needing to open SAP GUI and log in to the SAP system to look for information. You need to learn by heart the main Transaction Codes to navigate the system. You'll also need to know what are the main tables are, or maybe the CDS View that encapsulates it on later SAP versions.
+
+Mesmo que você evite programar em ABAP, você vai acabar precisando abrir o SAP GUI e fazer login no sistema SAP para buscar informações. É necessário decorar os principais Códigos de Transação para navegar no sistema. Você também precisará saber quais são as principais tabelas, ou talvez as CDS Views que as encapsulam nas versões mais recentes do SAP.
 
 - [ ] *EN* List NAV IT [SAP ABAP transaction codes list – A Comprehensive Guide](https://nav-it.com/sap-abap-transaction-codes-list-a-comprehensive-guide/)
 - [ ] *EN* List Pathlock [List of (T-Codes) Transaction Codes in SAP ABAP](https://pathlock.com/blog/transaction-codes-in-sap-abap/)
+- [ ] *EN* Short list of prefixes blogs.sap [SAP Standard Tables](https://community.sap.com/t5/enterprise-resource-planning-blog-posts-by-members/sap-standard-tables/ba-p/13241520)
+- [ ] *EN* List pdf [Tables in SAP](https://ganeshsapscm.com/wp-content/uploads/2015/07/sap-tables.pdf)
 
 ### Integration Suite (CPI)
-### SAP for me
-### Official Documentation (help.sap.com)
+Even if you're not working with integration, you're likely to come across an Integration Flow (iFlow) running in Integration Suite – Cloud Platform Integration (CPI). Whether you need to call it or be called by it, it's useful to have a basic understanding of the platform and why it's widely used by customers.
+
+Mesmo que você não trabalhe com integração, é provável que você se depare com um Integration Flow (iFlow) em execução no Integration Suite – Cloud Platform Integration (CPI). Seja porque você precisa chamá-lo ou ser chamado por ele, é útil ter um entendimento básico da plataforma e por que ela é amplamente utilizada pelos clientes.
+
+- [ ] *EN* SAP Discovery Center [SAP Integration Suite](https://discovery-center.cloud.sap/serviceCatalog/integration-suite)
+- [ ] *PT* help.sap [O que é o SAP Integration Suite?](https://help.sap.com/docs/integration-suite/sap-integration-suite/what-is-sap-integration-suite?locale=pt-BR)
+- [ ] *EN* bpmn.org [BPMN Quick Guide](https://www.bpmnquickguide.com/quickguide/bpmn-quick-guide/bpmn-basics.html)
+- [ ] *PT* Moovi [SAP Cloud Integration 2.0 (CPI/CI)](https://moovi.curseduca.pro/m/lessons/sap-cloud-integration-2-0-cpici-1734443760098)
+
+### SAP Help Portal
+The best place to look for updated information on SAP products is the **[SAP Help Portal](http://help.sap.com/)**. Here you will find the official SAP product documentation, written by SAP employees. It is constantly updated to keep up with the evolution of the products.
+
+O melhor lugar para buscar informações atualizadas sobre os produtos SAP é o [SAP Help Portal](http://help.sap.com/). Aqui você encontra a documentação oficial dos produtos SAP, escrita por funcionários da SAP. Ela é constantemente atualizada para acompanhar a evolução dos produtos.
+
+### SAP for Me
+**[SAP for Me](https://me.sap.com/)** is a website that requires an S-user to access. Here you will find official support, software downloads, Knowledge Base Articles (KBAs), and SAP Notes.
+
+[SAP for Me](https://me.sap.com/) é um site que requer um S-user para acesso. Aqui você encontrará suporte oficial, downloads de software, Artigos da Base de Conhecimento (KBAs) e SAP Notes.
+
+### Business Accelerator Hub
+The **[Business Accelerator Hub](https://api.sap.com/)**, formerly API Hub, is the go-to place for API documentation and specification. Here you can download the specs in different formats (OData EDMX, OpenAPI JSON or YAML), Try Out APIs on sandbox systems, find CDS Views, Integration Packages, Events, and more.
+
+O [Business Accelerator Hub](https://api.sap.com/), antigo API Hub, é o local de referência para documentação e especificação de APIs. Aqui você pode baixar as especificações em diferentes formatos (OData EDMX, OpenAPI JSON ou YAML), testar (Try Out) APIs em sistemas sandbox, encontrar CDS Views, Pacotes de Integração, Eventos e mais.
+
