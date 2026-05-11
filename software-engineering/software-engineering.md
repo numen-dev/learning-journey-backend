@@ -6,7 +6,7 @@
 | [MVC](#mvc)| [Design Patterns](#design-patterns)| [Algorithm Complexity]()|
 | [Client-Server](#client-server)| [Separation of Concerns](#separation-of-concerns)| [Microservices]()|
 | [Events](#events)| [Event-Driven Architecture](#event-driven-architecture)| [Observability]()|
-| [APIs](#apis)| | |
+| [APIs](#apis)| [SOLID](#solid) | |
 | [REST and OData](#rest-and-odata)| | |
 
 
@@ -105,6 +105,15 @@ There are many thing-driven architectures, and they all share a purpose: to driv
 - [ ] *PT* RedHat [Arquitetura orientada a eventos?](https://www.redhat.com/pt-br/topics/integration/what-is-event-driven-architecture)
 - [ ] *EN* SAP [What is event-driven architecture?](https://www.sap.com/croatia/resources/what-is-event-driven-architecture)
 
+### SOLID
+Wouldn't it be nice to have a few very general, but very accurate, guidelines to design software? By using SOLID principles, people have learned how to write software today that won't need to be completely rewritten tomorrow.
+
+Não seria ótimo ter algumas diretrizes muito gerais, mas muito precisas, para projetar um software? Usando os princípios SOLID, as pessoas aprenderam a escrever software hoje que não precisará ser totalmente reescrito amanhã.
+
+- [ ] *PT* Wikipedia [SOLID](https://pt.wikipedia.org/wiki/SOLID)
+- [ ] *EN* PDF Source document [Design Principles and Design Patterns](https://objectmentor.com/resources/articles/Principles_and_Patterns.pdf)
+- [ ] *EN* Blog CleanCoder [Solid Relevance](https://blog.cleancoder.com/uncle-bob/2020/10/18/Solid-Relevance.html)
+- [ ] *PT* Blog [Entenda o SOLID de uma vez por todas e por que é tão importante!](https://medium.com/@gabrielfernandeslemos/entenda-o-solid-de-uma-vez-por-todas-e-por-que-%C3%A9-t%C3%A3o-importante-bfc967eeb6a9)
 
 ## Level 3
 **Advanced software engineering**

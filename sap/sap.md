@@ -4,10 +4,10 @@
 |----|----|----|
 | [SAP](#sap-erp) | [S/4HANA (and ECC)](#s4hana-and-ecc) | [SAP T-Codes and Tables](#sap-t-codes-and-tables) |
 | [SAP BTP](#sap-btp) | [SAP Cloud ERP](#sap-cloud-erp) | [Integration Suite (CPI)](#integration-suite-cpi) |
-| [BTP Services](#btp-services) | [Job Scheduler](#job-scheduler) | [SAP Help Portal](#sap-help-portal) |
-| [Cloud Foundry](#cloud-foundry)| [HANA](#hana) | [SAP for Me](#sap-for-me) |
-| [Work Zone (Standard)](#work-zone-standard) | [Kyma](#kyma) | [Business Accelerator Hub](#business-accelerator-hub) |
-| [Clean Core](#clean-core) | [HTML5 App Repository](#html5-app-repository) | |
+| [BTP Services](#btp-services) | [Job Scheduler](#job-scheduler) | [SAP Documentation](#sap-documentation) |
+| [Cloud Foundry](#cloud-foundry)| [HANA](#hana) | [Kyma](#kyma) |
+| [Work Zone (Standard)](#work-zone-standard) | [HTML5 App Repository](#html5-app-repository) | [SBPA](#sbpa) |
+| [Clean Core](#clean-core) | [CF CLI](#cf-cli) | [ABAP-RAP](#abap---rap) |
 
 ## Level 1
 **What are SAP and BTP?**
@@ -145,15 +145,6 @@ O SAP HANA não é apenas o banco de dados proprietário da SAP, mas também um 
 - [ ] *EN* help.sap [SAP HANA Cloud Getting Started Guide](https://help.sap.com/docs/hana-cloud/sap-hana-cloud-getting-started-guide/sap-hana-cloud-and-sap-business-technology-platform-sap-btp?locale=en-US)
 - [ ] *PT* help.sap [Guia de introdução do SAP HANA Cloud](https://help.sap.com/docs/hana-cloud/sap-hana-cloud-getting-started-guide/sap-hana-cloud-and-sap-business-technology-platform-sap-btp?locale=pt-BR)
 
-### Kyma
-In order to keep up with the latest technologies in the market for application development (and especially DevOps), SAP has chosen the open-source project [Kyma](https://kyma-project.io/) as its managed [Kubernetes](https://kubernetes.io/) runtime.
-
-Para acompanhar as tecnologias mais recentes do mercado de desenvolvimento de aplicações (e especialmente DevOps), a SAP escolheu o projeto open-source Kyma como seu runtime gerenciado de Kubernetes.
-
-- [ ] *EN* kyma-project.io [What is Kyma?](https://kyma-project.io/README.html)
-- [ ] *EN* help.sap [Kyma Environment](https://help.sap.com/docs/btp/sap-business-technology-platform/kyma-environment?locale=en-US)
-- [ ] *PT* help.sap [Ambiente Kyma](https://help.sap.com/docs/btp/sap-business-technology-platform/kyma-environment?locale=pt-BR)
-
 ### HTML5 App Repository
 Static resources such as web pages (HTML) can be stored and managed separately from your applications. The HTML5 App Repository allows you to decouple your app from its UI, resulting in easier maintenance.
 
@@ -162,6 +153,18 @@ Recursos estáticos, como páginas web (HTML), podem ser armazenados e gerenciad
 - [ ] *EN* SAP Discovery Center [SAP HTML5 Application Repository Service for SAP BTP](https://discovery-center.cloud.sap/serviceCatalog/html5-application-repository-service)
 - [ ] *EN* help.sap [Developing HTML5 Applications in the Cloud Foundry Environment](https://help.sap.com/docs/btp/sap-business-technology-platform/developing-html5-applications-in-cloud-foundry-environment?locale=en-US)
 - [ ] *PT* help.sap [Desenvolvimento de aplicações HTML5 no ambiente Cloud Foundry](https://help.sap.com/docs/btp/sap-business-technology-platform/developing-html5-applications-in-cloud-foundry-environment?version=Cloud&locale=pt-BR&state=PRODUCTION)
+
+### CF CLI
+The Cloud Foundry Command Line Interface (cf-cli) is the communication tool between your computer and the CF Environment on SAP BTP. Whether you use GUI commands to deploy your apps or not, under the hood it's the cf-cli running. Learn the main commands and you'll eventually use it to automate your deployments.
+
+A Interface de Linha de Comando do Cloud Foundry (cf-cli) é a ferramenta de comunicação entre seu computador e o ambiente CF no SAP BTP. Mesmo que você utilize comandos gráficos (GUI) para fazer deploy das suas aplicações, por trás é o cf-cli que está em execução. Aprenda os principais comandos, pois você acabará usando a ferramenta para automatizar seus deploys.
+
+- [ ] *EN* cloudfoundry.org [Installing the cf CLI](https://docs.cloudfoundry.org/cf-cli/install-go-cli.html)
+- [ ] *EN* Tutorial evelopers.sap [Install the Cloud Foundry Command Line Interface (CLI)](https://developers.sap.com/tutorials/cp-cf-download-cli..html)
+- [ ] *EN* SAP Development Tools [SAP BTP Command Line Interface (btp CLI)](https://tools.hana.ondemand.com/#cloud-btpcli)
+- [ ] *EN* cloudfoundry.org [Getting started with the cf CLI](https://docs.cloudfoundry.org/cf-cli/getting-started.html)
+- [ ] *EN* help.sap [Multitarget Application Plugin for Cloud Foundry Command Line Interface](https://help.sap.com/docs/btp/sap-business-technology-platform/multitarget-application-plug-in-for-cloud-foundry-command-line-interface?locale=en-US)
+
 
 ## Level 3
 **Further SAP Services and Resources**
@@ -192,18 +195,46 @@ Mesmo que você não trabalhe com integração, é provável que você se depare
 - [ ] *EN* bpmn.org [BPMN Quick Guide](https://www.bpmnquickguide.com/quickguide/bpmn-quick-guide/bpmn-basics.html)
 - [ ] *PT* Moovi [SAP Cloud Integration 2.0 (CPI/CI)](https://moovi.curseduca.pro/m/lessons/sap-cloud-integration-2-0-cpici-1734443760098)
 
-### SAP Help Portal
+### SAP Documentation
 The best place to look for updated information on SAP products is the **[SAP Help Portal](http://help.sap.com/)**. Here you will find the official SAP product documentation, written by SAP employees. It is constantly updated to keep up with the evolution of the products.
 
-O melhor lugar para buscar informações atualizadas sobre os produtos SAP é o [SAP Help Portal](http://help.sap.com/). Aqui você encontra a documentação oficial dos produtos SAP, escrita por funcionários da SAP. Ela é constantemente atualizada para acompanhar a evolução dos produtos.
-
-### SAP for Me
 **[SAP for Me](https://me.sap.com/)** is a website that requires an S-user to access. Here you will find official support, software downloads, Knowledge Base Articles (KBAs), and SAP Notes.
 
-[SAP for Me](https://me.sap.com/) é um site que requer um S-user para acesso. Aqui você encontrará suporte oficial, downloads de software, Artigos da Base de Conhecimento (KBAs) e SAP Notes.
-
-### Business Accelerator Hub
 The **[Business Accelerator Hub](https://api.sap.com/)**, formerly API Hub, is the go-to place for API documentation and specification. Here you can download the specs in different formats (OData EDMX, OpenAPI JSON or YAML), Try Out APIs on sandbox systems, find CDS Views, Integration Packages, Events, and more.
 
-O [Business Accelerator Hub](https://api.sap.com/), antigo API Hub, é o local de referência para documentação e especificação de APIs. Aqui você pode baixar as especificações em diferentes formatos (OData EDMX, OpenAPI JSON ou YAML), testar (Try Out) APIs em sistemas sandbox, encontrar CDS Views, Pacotes de Integração, Eventos e mais.
+O melhor lugar para buscar informações atualizadas sobre os produtos SAP é o **[SAP Help Portal](http://help.sap.com/)**. Aqui você encontra a documentação oficial dos produtos SAP, escrita por funcionários da SAP. Ela é constantemente atualizada para acompanhar a evolução dos produtos.
 
+**[SAP for Me](https://me.sap.com/)** é um site que requer um S-user para acesso. Aqui você encontrará suporte oficial, downloads de software, Artigos da Base de Conhecimento (KBAs) e SAP Notes.
+
+O **[Business Accelerator Hub](https://api.sap.com/)**, antigo API Hub, é o local de referência para documentação e especificação de APIs. Aqui você pode baixar as especificações em diferentes formatos (OData EDMX, OpenAPI JSON ou YAML), testar (Try Out) APIs em sistemas sandbox, encontrar CDS Views, Pacotes de Integração, Eventos e mais.
+
+### Kyma
+In order to keep up with the latest technologies in the market for application development (and especially DevOps), SAP has chosen the open-source project [Kyma](https://kyma-project.io/) as its managed [Kubernetes](https://kubernetes.io/) runtime.
+
+Para acompanhar as tecnologias mais recentes do mercado de desenvolvimento de aplicações (e especialmente DevOps), a SAP escolheu o projeto open-source Kyma como seu runtime gerenciado de Kubernetes.
+
+- [ ] *EN* kyma-project.io [What is Kyma?](https://kyma-project.io/README.html)
+- [ ] *EN* help.sap [Kyma Environment](https://help.sap.com/docs/btp/sap-business-technology-platform/kyma-environment?locale=en-US)
+- [ ] *PT* help.sap [Ambiente Kyma](https://help.sap.com/docs/btp/sap-business-technology-platform/kyma-environment?locale=pt-BR)
+
+### SBPA
+While it's not mandatory to learn SAP Build Process Automation, it's important to at least understand the trade-offs of having Robotic Process Automation versus an Application: maintenance costs, licenses, development speed, and extensibility.
+
+Embora não seja obrigatório aprender SAP Build Process Automation, é importante ao menos entender os trade-offs de ter uma Automação de Processos Robóticos em comparação com uma Aplicação: custos de manutenção, licenças, velocidade de desenvolvimento e extensibilidade.
+
+- [ ] *EN* SAP Discovery Center [SAP Build Process Automation](https://discovery-center.cloud.sap/serviceCatalog/sap-build-process-automation?region=all)
+- [ ] *EN* Tutorial developers.sap [Build Your First Business Process with SAP Build Process Automation](https://developers.sap.com/mission.sap-process-automation.html)
+- [ ] *EN* Course learning.sap [Developing with SAP Build Process Automation](https://learning.sap.com/courses/developing-with-sap-build-process-automation)
+
+### ABAP - RAP
+If you have reached this far, you should already have come into contact with ABAP. You may also have discovered that when searching for a CAP service, an iFlow, or an SBPA bot, you encountered a RAP service. Take a closer look at this "newanciet" technology to be prepared for the next time you come across it.
+
+Se você chegou até aqui, provavelmente já teve contato com ABAP. Você também pode ter descoberto que, ao procurar um serviço CAP, um iFlow ou um bot SBPA, encontrou um serviço RAP. Observe mais de perto essa tecnologia "novantiga" para estar preparado da próxima vez que se deparar com ela.
+
+
+- [ ] *EN* Course learning.sap [Basic ABAP Programming](https://learning.sap.com/courses/basic-abap-programming)
+- [ ] *EN* Tutorial tutorialspoint [SAP ABAP Tutorial](https://www.tutorialspoint.com/sap_abap/index.htm)
+- [ ] *EN* Tutorial developers.sap [Get to Know the ABAP RESTful Application Programming Model](https://developers.sap.com/tutorials/abap-environment-restful-programming-model..html)
+- [ ] *EN* Course learning.sap [Learn the Basics of ABAP Programming on SAP BTP](https://learning.sap.com/courses/learn-the-basics-of-abap-programming-on-sap-btp)
+- [ ] *PT* Blog tutorial [ABAP RAP (Programação Restful ABAP)](https://medium.com/@granerohigor/abap-rap-programa%C3%A7%C3%A3o-restful-abap-1424934fdeaf)
+- [ ] *EN* Reading blogs.sap [Comparing ABAP Restful Application Programming (RAP) model with the Cloud Application Programming (CAP) model](https://community.sap.com/t5/technology-blog-posts-by-members/comparing-abap-restful-application-programming-rap-model-with-the-cloud/ba-p/13482814)

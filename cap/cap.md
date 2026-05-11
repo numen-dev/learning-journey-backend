@@ -133,6 +133,7 @@ Eventualmente, as Anotações do Fiori Elements não serão suficientes para rea
 - [ ] *EN* ui5.sap [SAPUI5 API Reference](https://ui5.sap.com/#/api)
 - [ ] *EN* ui5.sap [SAPUI5 Samples](https://ui5.sap.com/#/controls)
 - [ ] *EN* ui5.sap [Extending Generated Apps Using App Extensions](https://ui5.sap.com/#/topic/340cdb2ba97c4843979f905a70a327ee)
+- [ ] *EN* ui5.sap [SAP Fiori Development Portal](https://ui5.sap.com/test-resources/sap/fe/core/fpmExplorer/index.html)
 
 ### Fiori Launchpad Plugin
 Have a local environment that simulates Fiori Launchpad (Work Zone, standard).

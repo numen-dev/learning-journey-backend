@@ -179,6 +179,7 @@ Como [Martin Fowler diz](https://martinfowler.com/bliki/TestDrivenDevelopment.ht
 - [ ] *EN* Kent Beck [Canon TDD](https://tidyfirst.substack.com/p/canon-tdd)
 - [ ] *PT* Blog DevMedia [TDD](https://www.devmedia.com.br/test-driven-development-tdd-simples-e-pratico/18533)
 - [ ] *PT* Tutorial [Aprenda TDD na prática](https://github.com/PauloGoncalvesBH/aprenda-tdd-na-pratica)
+- [ ] *EN* Blog CleanCoder [The Pragmatics of TDD](https://blog.cleancoder.com/uncle-bob/2013/03/06/ThePragmaticsOfTDD.html)
 
 ### **Git (Branches, PR)**
 Continue your Git learning understanding local and remote repositories, branches, merges and pull-requests.
