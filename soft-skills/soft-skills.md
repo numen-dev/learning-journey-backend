@@ -4,7 +4,7 @@
 | [Level 1](#level-1) <br> Nível 1 <br> Fundamentos e conceitos essenciais para iniciar a jornada | [Level 2](#level-2) <br> Nível 2 <br> Especialização e domínio intermediário das tecnologias | [Level 3](#level-3) <br> Nível 3 <br> Conceitos avançados, visão de arquitetura e inovações |
 |----|----|----|
 | [Team communication](#team-communication) | [Outside Team Communication](#outside-team-communication) | [Lessons learned repository](#lessons-learned-repository) |
-| [Continuous feedback](#continuous-feedback) | [Presentation](#)| [Best practices and patterns](#best-practices-and-patterns) |
+| [Continuous feedback](#continuous-feedback) | [Presentation](#presentation)| [Best practices and patterns](#best-practices-and-patterns) |
 | [Agile](#agile) | [Mentoring](#mentoring) | [Legacy technologies learning](#legacy-technologies-learning) |
 | [English](#english-1) | [English](#english-2) | [English](#english-3) |
 
@@ -74,15 +74,16 @@ Agora que você está trabalhando em equipe - não como uma ilha isolada, mas co
 
 
 ### Outside Team Communication
->Conversar com o funcional sobre o requisito
->Conversar com a gerência sobre expectativa de entrega
--
+This is the hardest soft skill, but you should start developing it as soon as you can handle it. There are (at least) three types of people you need to engage: your People Manager, to discuss your career, your goals, what you need and want from the company, and what you can offer (that you're not yet doing); the Business Analyst, who sits between the end-user, pure business, and you, pure technology. In the SAP world, this person is called a Functional Analyst - someone who knows a particular SAP module and has some knowledge of technology. This person probably also understands how the customer's processes work and how they fit into SAP's standards. Your job is to effectively understand how the functional requirement translates into code. Finally, your Project Manager, who is responsible for organizing the development team, setting deadlines, and clarifying the customer's expectations about when the project will be delivered. Your job is to identify the pace of your task development, break down or detail tasks to clarify them, and reason with the PM to adjust delivery dates.
+
+Esta é a habilidade comportamental mais difícil, mas você deve começar a desenvolvê-la assim que conseguir. Existem (pelo menos) três tipos de pessoas com quem você precisa se envolver: seu People Manager, para discutir sua carreira, seus objetivos, o que você precisa e deseja da empresa, e o que pode oferecer (que ainda não está fazendo); o Analista de Negócios, que fica entre o usuário final, o negócio puro, e você, tecnologia pura. No mundo SAP, essa pessoa é chamada de Analista Funcional - alguém que conhece um módulo SAP específico e tem algum conhecimento de tecnologia. Essa pessoa provavelmente também entende como funcionam os processos do cliente e como eles se encaixam nos padrões do SAP. Seu trabalho é entender efetivamente como o requisito funcional se traduz em código. Por fim, seu Gerente de Projetos, que é responsável por organizar a equipe de desenvolvimento, definir prazos e esclarecer as expectativas do cliente sobre quando o projeto será entregue. Seu trabalho é identificar o ritmo do desenvolvimento das suas tarefas, detalhar ou dividir as tarefas para esclarecê-las e negociar com o GP para ajustar as datas de entrega.
+
+- *work in progress...*
 
 ### Presentation
 Learn how to give short presentations. Know what to say, at what speed and tone. Provide as much detail as your audience needs. Create a PowerPoint presentation quickly and spend some time making it visually appealing.
 
 Aprenda a fazer apresentações curtas. Saiba o que falar, em que velocidade e tom. Detalhe tanto quanto o público precisar. Crie uma apresentação no PowerPoint rapidamente e dedique um tempo para torná-la agradável aos olhos.
-
 
 - [ ] *PT* Blog ispring [12 dicas powerpoint para apresentações profissionais e envolventes](https://www.ispringpro.com.br/blog/dicas-de-apresentacao-powerpoint)
 - [ ] *EN* Presentation McGill University [PowerPoint Presentation Guidelines](https://www.mcgill.ca/skillsets/files/skillsets/powerpointguidelines.pdf)
@@ -90,10 +91,16 @@ Aprenda a fazer apresentações curtas. Saiba o que falar, em que velocidade e t
 - [ ] *EN* Blog Hubspot [PowerPoint Tips to Present Like a Pro](https://blog.hubspot.com/marketing/easy-powerpoint-design-tricks-ht)
 - [ ] *EN* Blog VerdanaBold [The 10-20-30 Rule of PowerPoint – How it Can Make (or Break) Your Best Marketing Presentations](https://www.verdanabold.com/post/the-10-20-30-rule-of-powerpoint-how-it-can-make-or-break-your-best-marketing-presentations)
 
-
 ### Mentoring
->Mentoria para membros do time
--
+First off, if you don't know yet, it's time to learn what mentoring is. Let's strengthen our bonds by setting up pairs: mentor and mentee. This will serve as a boost and a guide for the mentee's development. Finally, as a mentor, you'll be rewarded with more responsibility: track the mentee's progress and encourage their ability to constantly give feedback.
+
+Primeiramente, se você ainda não sabe, está na hora de aprender o que é mentoria. Vamos fortalecer nossos laços formando duplas: mentor e mentorado. Isso servirá como um impulso e um guia para o desenvolvimento do mentorado. Por fim, como mentor, você será recompensado com mais responsabilidade: acompanhar o progresso do mentorado e incentivar sua capacidade de dar feedback constantemente.
+
+- [ ] *PT* Blog Medium [Dicas sobre como mentorar](https://medium.com/assertqualityassurance/dicas-sobre-mentorar-bd589e7f6013)
+- [ ] *PT* Blog Universidade Tiradentes [Mentoring: o que é e como se tornar um bom mentor](https://www.unit.br/blog/mentoring-como-ser-um-bom-mentor)
+- [ ] *EN* PDF Oregon University [Mentor and Mentee Tips](https://hr.oregonstate.edu/sites/hr.oregonstate.edu/files/_mentoring_matters_handout.pdf)
+- [ ] *EN* Blog American Psychological Association [Introduction to Mentoring: A Guide for Mentors and Mentees](https://www.apa.org/education-career/grad/mentoring)
+
 
 ### **English 2**
 Improve your English. At this level, you must know how to: watch videos with English transcriptions; understand most of what's being said in meeting; write slides for a presentation; say short sentences in front of an audience; use most of your tools and research websites in English.
