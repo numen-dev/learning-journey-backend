@@ -15,5 +15,5 @@ Habilidades e recursos para desenvolvedores backend, para poder medir e rastrear
 | [**Artificial Intelligence**](./ai/ai.md) | [AI Introduction](./ai/ai.md#level-1) | [Leveraging development with AI](./ai/ai.md#level-2) | [Pro coding with AI](./ai/ai.md#level-3) |
 
 
-
-[Work in progress spreadsheet source](https://numenit.sharepoint.com/:x:/s/VAEES-TeamSharepoint/IQB_-GJAidc7Qo-epKkfmFkSARP9uTPdkXfSx24kt59569Q?e=A3zJYG)
+----
+[Backend Hub Sharepoint](https://numenit.sharepoint.com/sites/VAEES-TeamSharepoint/Documentos%20Compartilhados/Forms/AllItems.aspx?id=%2Fsites%2FVAEES%2DTeamSharepoint%2FDocumentos%20Compartilhados%2FHubs%2FHUB%20Backend&p=true&ga=1)
