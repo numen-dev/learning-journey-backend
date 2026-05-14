@@ -113,7 +113,7 @@ Configure e escolhe o perfil adequado a suas necessidades.
 - [ ] *EN* capire [Configuration Profiles](https://cap.cloud.sap/docs/node.js/cds-env#profiles)
 - [ ] *EN* capire [Authentication in Hybrid Setup](https://cap.cloud.sap/docs/node.js/authentication#hybrid-setup)
 - [ ] *EN* capire [Using SQLite for Development](https://cap.cloud.sap/docs/guides/databases/sqlite)
-- [ ] *EN* blogs.sap [SAP CAP Lessons Learned: Hybrid Development with On-Premise SAP System](https://community.sap.com/t5/technology-blog-posts-by-members/sap-cap-lessons-learned-hybrid-development-with-on-premise-sap-system/ba-p/13972708)
+- [ ] *EN* [Lucas Rigo](https://github.com/lucasrigo-numen)'s blogs.sap [SAP CAP Lessons Learned: Hybrid Development with On-Premise SAP System](https://community.sap.com/t5/technology-blog-posts-by-members/sap-cap-lessons-learned-hybrid-development-with-on-premise-sap-system/ba-p/13972708)
 
 ### .http (or Postman)
 Your web browser is good enough to test GET requests of your services, though sometimes clunky when you have some parameters you want to change. Let's step to the next level. Let's have it as code, and test all GET, POST, PUT, and DELETE methods. In a CAP project you can test using the *.http* files enabled by [VSCode REST Client](https://github.com/Huachao/vscode-restclient). Or if you're already familiar with [Postman](https://www.postman.com/) or [Bruno](https://www.usebruno.com/), you may use them as well.
@@ -149,7 +149,7 @@ In your *hybrid* or *production* profiles, you'll most likely be using a HANA da
 Nos seus perfis *hybrid* ou *production*, você provavelmente usará um banco de dados HANA. Aprenda o que você pode assumir e com o que precisa se preocupar, o que sua aplicação pode assumir e o que ela deve informar explicitamente ao banco de dados.
 
 - [ ] *EN* [HANA Guide](https://cap.cloud.sap/docs/guides/databases/hana)
-- [ ] *EN* blogs.sap [SAP CAP Lessons Learned: SQLite is single threaded, HANA is not](https://community.sap.com/t5/technology-blog-posts-by-members/sap-cap-lessons-learned-sqlite-is-single-threaded-hana-is-not/ba-p/13972788)
+- [ ] *EN* [Lucas Rigo](https://github.com/lucasrigo-numen)'s blogs.sap [SAP CAP Lessons Learned: SQLite is single threaded, HANA is not](https://community.sap.com/t5/technology-blog-posts-by-members/sap-cap-lessons-learned-sqlite-is-single-threaded-hana-is-not/ba-p/13972788)
 
 ### External Services
 Your application is not alone. Learn how to import external services, consume them, and combine them with your own. Establish seamless communication within and outside your app.
