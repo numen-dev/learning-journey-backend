@@ -209,12 +209,12 @@ Artificial Intelligence (AI), especially now with Large Language Models (LLMs), 
 
 Inteligência Artificial (IA), especialmente agora com os Modelos de Linguagem de Grande Escala (LLMs), pode ser uma aliada poderosa ou uma dor de cabeça. Aprenda a programar com assistentes de IA, o que você pode pedir a eles e o que pode esperar dessas ferramentas. Entenda como e quando utilizá-las. Use-as com sabedoria.
 
-- *EN* **Martin Fowler [Patterns for Reducing Friction in AI-Assisted Development](https://martinfowler.com/articles/reduce-friction-ai/)**
+- [ ] *EN* **Martin Fowler [Patterns for Reducing Friction in AI-Assisted Development](https://martinfowler.com/articles/reduce-friction-ai/)**
   >AI assistants are like junior developers with infinite energy but zero context.
-- *EN* Coursera [Jetbrains AI-Assisted Programming](https://www.coursera.org/learn/ai-assisted-programming)
-- *EN* O'Reilly Book [AI-Assisted
+- [ ] *EN* Coursera [Jetbrains AI-Assisted Programming](https://www.coursera.org/learn/ai-assisted-programming)
+- [ ] *EN* O'Reilly Book [AI-Assisted
 Programming - Tom Taulli](https://www.hkdca.com/wp-content/uploads/2025/06/ai-assisted-programming-oreilly.pdf)
-- *PT* Google [Ferramentas de programação e geração de código com IA](https://cloud.google.com/use-cases/ai-code-generation?hl=pt-BR)
+- [ ] *PT* Google [Ferramentas de programação e geração de código com IA](https://cloud.google.com/use-cases/ai-code-generation?hl=pt-BR)
 
 
 ### **Container (Kyma, Docker, K8s)**
